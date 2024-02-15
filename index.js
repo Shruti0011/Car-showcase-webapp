@@ -62,7 +62,7 @@ switch (parsedUrl.pathname) {
         break;
     default:
         res.writeHead(404, { 'Content-Type': 'text/plain' });
-        res.write('Page not found');
+        res.write('Page is empty');
     }
 
     res.end();
