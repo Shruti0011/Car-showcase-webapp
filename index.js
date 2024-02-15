@@ -63,7 +63,7 @@ const server = http.createServer((req, res) => {
       break;
     default:
       res.writeHead(404, { "Content-Type": "text/plain" });
-      res.write("Page is showen");
+      res.write("Page is not found");
   }
 
   res.end();
